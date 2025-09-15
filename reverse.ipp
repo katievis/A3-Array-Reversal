@@ -12,7 +12,7 @@ void reverse_array(T* a, int n) {
 
 template <typename T>
 void print_array(const T* a, int n) {
-    std::cout << ": [";
+    std::cout << "[";
     for (int i = 0; i < n; ++i) {
         std::cout << a[i];
         if (i != n - 1) std::cout << ", ";

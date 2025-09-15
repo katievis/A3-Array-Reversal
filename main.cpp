@@ -1,5 +1,5 @@
 #include "reverse.hpp"
-#include <cstring>  // for std::strlen
+#include <cstring>  
 
 int main() {
     // int[]
@@ -38,7 +38,6 @@ int main() {
 
     return 0;
 }
-
 
 /*
  Expected Output
