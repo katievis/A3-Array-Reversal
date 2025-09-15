@@ -1,47 +1,44 @@
 #include "reverse.hpp"
-#include <cstring>  
-
-using util::print_array;
-using util::reverse_array;
-using util::arr_size;
+#include <cstring>  // for std::strlen
 
 int main() {
     // int[]
     int ai[]{1, 2, 3, 4};
-    int ni = arr_size(ai); // compute size of array
+    int ni = arr_size(ai);
     std::cout << "ai: ";
-    print_array<int>(ai, ni);
-    reverse_array<int>(ai, ni);
+    print_array(ai, ni);
+    reverse_array(ai, ni);
     std::cout << "ai: ";
-    print_array<int>(ai, ni);
+    print_array(ai, ni);
 
     // double[]
     double ad[] = {1.5, 2.5, 3.5, 4.5};
-    int nd = arr_size(ad); // compute size of array
+    int nd = arr_size(ad);
     std::cout << "ad: ";
-    print_array<double>(ad, nd);
-    reverse_array<double>(ad, nd);
+    print_array(ad, nd);
+    reverse_array(ad, nd);
     std::cout << "ad: ";
-    print_array<double>(ad, nd);
+    print_array(ad, nd);
 
     // char[] (not a C-string)
     char letters[] = {'E','C','E','3','5','1','4'};
-    int nc = arr_size(letters); // compute size of array
+    int nc = arr_size(letters);
     std::cout << "letters: ";
-    print_array<char>(letters, nc);
-    reverse_array<char>(letters, nc);
+    print_array(letters, nc);
+    reverse_array(letters, nc);
     std::cout << "letters: ";
-    print_array<char>(letters, nc);
+    print_array(letters, nc);
 
     // C-string: reverse only the characters, not the '\0'
     char word[] = "hello";
     std::cout << "cstr: " << word << "\n";
-    int nw = static_cast<int>(std::strlen(word)); // compute size of string (no '\0')
-    reverse_array<char>(word, nw);
+    int nw = static_cast<int>(std::strlen(word));
+    reverse_array(word, nw);
     std::cout << "cstr: " << word << "\n";
 
     return 0;
 }
+
 
 /*
  Expected Output

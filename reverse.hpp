@@ -2,22 +2,21 @@
 #include <iostream>
 #include <cstddef>
 
-namespace util {
-
-// reverse first n elements 
+// Reverse first n elements of array 
 template <typename T>
 void reverse_array(T* a, int n);
 
-// Prints first n elements of array 
+// print first n elements of array
 template <typename T>
 void print_array(const T* a, int n);
 
-// Helper 
+// helper
 template <typename T, std::size_t N>
 constexpr int arr_size(const T (&)[N]) {
     return static_cast<int>(N);
 }
 
-} 
-
 #include "reverse.ipp"
+
+
+

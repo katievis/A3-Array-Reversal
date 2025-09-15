@@ -1,7 +1,5 @@
 #pragma once
 
-namespace util {
-
 template <typename T>
 void reverse_array(T* a, int n) {
     if (!a || n <= 1) return;
@@ -21,5 +19,3 @@ void print_array(const T* a, int n) {
     }
     std::cout << "]\n";
 }
-
-} 

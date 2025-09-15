@@ -8,12 +8,12 @@ include_directories(${CMAKE_SOURCE_DIR}/include)
 
 add_executable(main main.cpp)
 
-# Catch 2
+# catch 2
 include(FetchContent)
 FetchContent_Declare(
   Catch2
   GIT_REPOSITORY https://github.com/catchorg/Catch2.git
-  GIT_TAG v3.6.0  
+  GIT_TAG v3.6.0
 )
 FetchContent_MakeAvailable(Catch2)
 
