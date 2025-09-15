@@ -1,0 +1,10 @@
+C:/Users/katie/A3-Array-Reversal/build/CMakeFiles/main.dir
+C:/Users/katie/A3-Array-Reversal/build/CMakeFiles/tests.dir
+C:/Users/katie/A3-Array-Reversal/build/CMakeFiles/edit_cache.dir
+C:/Users/katie/A3-Array-Reversal/build/CMakeFiles/rebuild_cache.dir
+C:/Users/katie/A3-Array-Reversal/build/_deps/catch2-build/CMakeFiles/edit_cache.dir
+C:/Users/katie/A3-Array-Reversal/build/_deps/catch2-build/CMakeFiles/rebuild_cache.dir
+C:/Users/katie/A3-Array-Reversal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir
+C:/Users/katie/A3-Array-Reversal/build/_deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir
+C:/Users/katie/A3-Array-Reversal/build/_deps/catch2-build/src/CMakeFiles/edit_cache.dir
+C:/Users/katie/A3-Array-Reversal/build/_deps/catch2-build/src/CMakeFiles/rebuild_cache.dir
